@@ -18,7 +18,9 @@ statements and followed by route statements. Your output will be routed
 destination and if it can not route some packets then output should print NO
 ROUTE DEFINED
 
+
 Sample Input:
+
 3
 10.0.0.0 255.255.255.0 192.168.1.1
 20.0.0.0 255.0.0.0 192.168.1.2
@@ -31,6 +33,7 @@ default 192.168.1.3
 21.1.1.1
 
 Sample Output:
+
 192.168.1.1
 192.168.1.3
 192.168.1.2
